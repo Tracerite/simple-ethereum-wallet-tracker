@@ -37,3 +37,4 @@ def add_wallet(self, address_or_ens):
     return f"Added wallet: {address}"
 # Doc comment 4
 # Comment 8 for day 1
+
