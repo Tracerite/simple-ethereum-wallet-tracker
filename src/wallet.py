@@ -35,3 +35,4 @@ def add_wallet(self, address_or_ens):
         raise ValueError("Invalid address")
     self.wallets.append(address)
     return f"Added wallet: {address}"
+# Doc comment 4
