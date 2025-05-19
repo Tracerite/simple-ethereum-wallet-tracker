@@ -1,19 +1,18 @@
 # Simple Ethereum Wallet Tracker
-A tool to track Ethereum wallet balances.
+
+A simple tool to track Ethereum wallet balances across common ERC-20 tokens.
 
 ## Features
-- Add wallet addresses
-- Fetch balances (TBD)
-# Simple Ethereum Wallet Tracker
-A tool to track Ethereum wallet balances.
 
-## Features
-- Add wallet addresses
-- Fetch balances (TBD)- Update 5 for day 1
-- Update 10 for day 1
+- ✅ Add Ethereum wallet addresses
+- 🔄 Fetch ETH and token balances (coming soon)
+- 📄 Support for configurable token list (`config/settings.json`)
+- 📊 CLI or Web interface (optional future scope)
 
-- Update 32 for day 1
-# Comment 33 for day 1
-# Comment 35 for day 1
+## Setup
 
-# Comment 42 for day 1
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/simple-ethereum-wallet-tracker.git
+   cd simple-ethereum-wallet-tracker
+- Update 69 for day 2
