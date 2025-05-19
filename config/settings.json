@@ -1,17 +1,13 @@
 {
   "api_key": "",
-  "network": "mainnet"
-}
-{
-  "api_key": "",
   "network": "mainnet",
   "tokens": {
     "USDT": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
     "DAI": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
   }
-}# Comment 18 for day 1
-# Doc comment 23
-# Doc comment 31
+}
+{
+  "api_key": "6662d8fd6943410fb205f3ddf92ce375",
+  "network": "mainnet"
+}
 
-
-# Comment 40 for day 1
