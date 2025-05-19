@@ -10,3 +10,4 @@ def resolve_ens(name):
     address = ns.address(name)
     return address if address else None
 # Comment 6 for day 1
+
