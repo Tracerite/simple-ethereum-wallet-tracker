@@ -12,3 +12,4 @@ A tool to track Ethereum wallet balances.
 - Fetch balances (TBD)- Update 5 for day 1
 - Update 10 for day 1
 
+- Update 32 for day 1
