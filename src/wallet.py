@@ -9,3 +9,21 @@ class WalletTracker:
     def get_balance(self, address):
         # Placeholder for balance fetching
         return 0.0
+    from web3 import Web3
+
+class WalletTracker:
+    def __init__(self):
+        self.wallets = []
+        self.w3 = Web3(Web3.HTTPProvider("https://mainnet.infura.io/v3/6662d8fd6943410fb205f3ddf92ce375"))
+
+    def add_wallet(self, address):
+        if not validate_address(address):
+            raise ValueError("Invalid address")
+        self.wallets.append(address)
+        return f"Added wallet: {address}"
+
+    def get_balance(self, address):
+        if self.w3.is_connected():
+            balance = self.w3.eth.get_balance(address)
+            return self.w3.from_wei(balance, "ether")
+        return 0.0

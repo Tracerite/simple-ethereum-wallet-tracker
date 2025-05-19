@@ -9,3 +9,7 @@ class TestWalletTracker(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+    def test_get_balance(self):
+    tracker = WalletTracker()
+    # Mock balance fetching (since we need a real address)
+    self.assertIsInstance(tracker.get_balance("0x1234567890abcdef1234567890abcdef12345678"), float)
