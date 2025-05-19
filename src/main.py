@@ -1,13 +1,13 @@
-from wallet import WalletTracker
+from wallet import WalletTracker  # Adjust to `from .wallet` if you're using packages
 
 def main():
+    """
+    Entry point for the Ethereum Wallet Tracker.
+    Initializes the WalletTracker and prints a startup message.
+    """
     tracker = WalletTracker()
     print("Simple Ethereum Wallet Tracker initialized")
 
 if __name__ == "__main__":
-    main()# Comment 2 for day 1
-# Comment 17 for day 1
-# Comment 28 for day 1
-# Doc comment 36
-# Doc comment 43
-# Comment 44 for day 1
+    main()
+# Comment 54 for day 2
