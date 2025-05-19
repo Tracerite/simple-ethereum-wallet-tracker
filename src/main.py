@@ -5,4 +5,4 @@ def main():
     print("Simple Ethereum Wallet Tracker initialized")
 
 if __name__ == "__main__":
-    main()
+    main()# Comment 2 for day 1
