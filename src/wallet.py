@@ -27,3 +27,11 @@ class WalletTracker:
             balance = self.w3.eth.get_balance(address)
             return self.w3.from_wei(balance, "ether")
         return 0.0
+    from utils import resolve_ens
+
+def add_wallet(self, address_or_ens):
+    address = resolve_ens(address_or_ens) if address_or_ens.endswith(".eth") else address_or_ens
+    if not validate_address(address):
+        raise ValueError("Invalid address")
+    self.wallets.append(address)
+    return f"Added wallet: {address}"
