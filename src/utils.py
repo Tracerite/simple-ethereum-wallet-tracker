@@ -1,3 +1,11 @@
 def validate_address(address):
     # Basic validation
     return len(address) == 42 and address.startswith("0x")
+from ens import ENS
+from web3 import Web3
+
+def resolve_ens(name):
+    w3 = Web3(Web3.HTTPProvider("https://mainnet.infura.io/v3/YOUR_INFURA_KEY"))
+    ns = ENS.from_web3(w3)
+    address = ns.address(name)
+    return address if address else None
