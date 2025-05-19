@@ -9,3 +9,4 @@ def resolve_ens(name):
     ns = ENS.from_web3(w3)
     address = ns.address(name)
     return address if address else None
+# Comment 6 for day 1
