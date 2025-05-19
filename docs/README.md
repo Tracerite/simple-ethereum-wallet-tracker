@@ -16,3 +16,4 @@ A simple tool to track Ethereum wallet balances across common ERC-20 tokens.
    git clone https://github.com/your-username/simple-ethereum-wallet-tracker.git
    cd simple-ethereum-wallet-tracker
 - Update 69 for day 2
+# Comment 74 for day 2
