@@ -27,3 +27,4 @@ A simple tool to track Ethereum wallet balances across common ERC-20 tokens.
 - Update 120 for day 3
 - Update 130 for day 3
 - Update 132 for day 3
+- Update 163 for day 4
